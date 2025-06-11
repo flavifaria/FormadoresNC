@@ -9,3 +9,6 @@ h2{
 .texto-ingles{
     font-style: italic;
 }
+#nome{
+    font-weight: bold;
+}
