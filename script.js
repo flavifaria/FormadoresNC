@@ -1,4 +1,5 @@
-
+// Manipulação de variáveis
+// Variáveis são usadas para armazenar dados que podem ser alterados durante a execução do programa
 function inserirNome(){
     let nome = prompt("Digite seu nome:");
     let elemento = document.querySelector("#nome");
@@ -10,7 +11,9 @@ function inserirNome(){
 inserirNome();
 let linguagens = ["Javascript", "Python", "C"];
 const item = document.querySelector(".lista");
-item.innerHTML = linguagens[0] + ", " + linguagens[1] + ", " + linguagens[2];
+item.textContent = linguagens[0];
+item.textContent = linguagens[1];
+item.textContent = linguagens[2];
 
 // Objetos em JavaScript
 // Objetos são estruturas que permitem agrupar dados e funcionalidades relacionadas.
@@ -24,9 +27,12 @@ let aluno1 = {
 // Acessando propriedades do objeto
 console.log(aluno1.nome); // “Gabriel”
 console.log(aluno1.idade); // 13
-console.log(aluno1.materiasFavoritas);
-// ["Geografia","Programação","Arte"]
+console.log(aluno1.materiasFavoritas);// ["Geografia","Programação","Arte"]
 console.log(aluno1.materiasFavoritas[1]); // "Programação"
 
 const objeto = document.querySelector("#aluno");
 objeto.textContent = aluno1.nome;
+objeto.textContent = aluno1.idade;
+objeto.textContent = aluno1.materiasFavoritas[0];
+objeto.textContent = aluno1.materiasFavoritas[1];
+objeto.textContent = aluno1.materiasFavoritas[2];
