@@ -29,4 +29,4 @@ console.log(aluno1.materiasFavoritas);
 console.log(aluno1.materiasFavoritas[1]); // "Programação"
 
 const objeto = document.querySelector("#aluno");
-objeto.textContent = aluno1.nome;
+objeto.innerHTML = aluno1.nome;
