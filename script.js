@@ -12,8 +12,7 @@ inserirNome();
 let linguagens = ["Javascript", "Python", "C"];
 const item = document.querySelector(".lista");
 item.textContent = linguagens[0];
-item.textContent = linguagens[1];
-item.textContent = linguagens[2];
+
 
 // Objetos em JavaScript
 // Objetos são estruturas que permitem agrupar dados e funcionalidades relacionadas.
@@ -32,7 +31,4 @@ console.log(aluno1.materiasFavoritas[1]); // "Programação"
 
 const objeto = document.querySelector("#aluno");
 objeto.textContent = aluno1.nome;
-objeto.textContent = aluno1.idade;
-objeto.textContent = aluno1.materiasFavoritas[0];
-objeto.textContent = aluno1.materiasFavoritas[1];
-objeto.textContent = aluno1.materiasFavoritas[2];
+
