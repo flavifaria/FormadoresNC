@@ -1,0 +1,14 @@
+body{
+    background-color: #305050;
+    color: white;
+}
+
+h2{
+    color: orange;
+}
+.texto-ingles{
+    font-style: italic;
+}
+#nome-usuario{
+    font-weight: bold;
+}
